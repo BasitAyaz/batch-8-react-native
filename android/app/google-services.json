@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "414232100074",
+    "project_id": "classapp-5a67d",
+    "storage_bucket": "classapp-5a67d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414232100074:android:b93ab00ba271d3ddb66b93",
+        "android_client_info": {
+          "package_name": "com.classapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9YoeTQOO2_AKjV-IrPzMp7OJ3rnj_e6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
