@@ -10,6 +10,9 @@ import Login from '../screens/login';
 import { _dark, _danger } from 'rncstyles';
 import SignUp from '../screens/signup';
 import Task from '../screens/task';
+import UploadScreen from '../screens/uploadscreen';
+import LocalData from '../screens/localdata';
+import MapScreen from '../screens/mapscreen';
 
 
 const Stack = createNativeStackNavigator();
@@ -18,6 +21,15 @@ function StackNavigation() {
     return (
         <NavigationContainer>
             <Stack.Navigator>
+                <Stack.Screen options={{
+                    headerShown: false
+                }} name="MapScreen" component={MapScreen} />
+                <Stack.Screen options={{
+                    headerShown: false
+                }} name="LocalData" component={LocalData} />
+                <Stack.Screen options={{
+                    headerShown: false
+                }} name="UploadScreen" component={UploadScreen} />
                 <Stack.Screen options={{
                     headerShown: false
                 }} name="Task" component={Task} />
